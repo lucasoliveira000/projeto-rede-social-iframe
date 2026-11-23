@@ -13,13 +13,13 @@ html ,body{
 }
 
 body{
-    background: url(imagens/img-fundo.jpeg);
+    background: url("imagens/img-fundo.jpeg");
     background-size: cover;
     background-attachment: fixed;
 }
 
 #celular{
-    background: url(imagens/img-celular.png);
+    background: url("imagens/img-celular.png");
     position: relative;
     height: 100vh;
     padding: 10px;
