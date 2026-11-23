@@ -13,13 +13,13 @@ html ,body{
 }
 
 body{
-    background: url(/imagens/img-fundo.jpeg);
+    background: url(imagens/img-fundo.jpeg);
     background-size: cover;
     background-attachment: fixed;
 }
 
 #celular{
-    background: url(/imagens/img-celular.png);
+    background: url(imagens/img-celular.png);
     position: relative;
     height: 100vh;
     padding: 10px;
@@ -35,6 +35,7 @@ body{
     transform: translate(-50%, -50%);
     padding: 10px;
 }
+
 iframe#tela{
     position: relative;
     width: 207px;
