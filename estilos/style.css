@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html ,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+body{
+    background: url(/imagens/img-fundo.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#celular{
+    background: url(/imagens/img-celular.png);
+    position: relative;
+    height: 100vh;
+    padding: 10px;
+}
+
+#celular{
+    position: absolute;
+    background-size: 100% 100%;
+    width: 300px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+iframe#tela{
+    position: relative;
+    width: 207px;
+    height: 435px;
+    top: 7px;
+    left: 46px;
+    border-radius: 30px;
+
+}
+
+#redes-sociais{
+    text-align: right;
+}
+
+#redes-sociais img{
+    width: 60px;
+    height: 60px;
+    padding:1px;
+    margin-right: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    box-shadow: 2px 6px 8px black;
+}
+
+#redes-sociais img:hover{
+    transform: translatey(5px);
+    border:solid 1px gray;
+}
